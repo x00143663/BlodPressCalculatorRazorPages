@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloadPres", "BloadPres\BloadPres.csproj", "{A5D194AB-8F44-4997-9683-5C818B261507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D194AB-8F44-4997-9683-5C818B261507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D194AB-8F44-4997-9683-5C818B261507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D194AB-8F44-4997-9683-5C818B261507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D194AB-8F44-4997-9683-5C818B261507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66C91F0C-3AAF-4CCB-B538-20F855BBBE38}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+﻿@page
+@model BloadPres.Pages.BloodPresureModel
+@{
+    ViewData["Title"] = "Blood Presure";
+}
+
+<h1>Blood Presure Calculator</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="bloodPresCalc.Sys"></label>
+                <input asp-for="bloodPresCalc.Sys" />
+                <span asp-validation-for="bloodPresCalc.Sys"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bloodPresCalc.Dia"></label>
+                <input asp-for="bloodPresCalc.Dia" />
+                <span asp-validation-for="bloodPresCalc.Dia"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Verify" class="btn btn-info" />
+            </div>
+            <div class="form-group">
+                @Html.DisplayFor(model => model.bloodPresCalc.PresureCateg,new { htmlAttributes =  new{ @class = "form-control" } })
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
